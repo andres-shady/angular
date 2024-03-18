@@ -1,0 +1,67 @@
+.divi{
+    justify-content: center;
+    padding: 10px;
+}
+.h{
+    color: aqua;
+    font-size:20px ;
+    color: black;
+    text-align: justify;
+}
+.marke{
+    color: black;
+    font-size: 25px;
+}
+.g{
+    width: 200px;
+}
+.espace-produit{
+    display: block;
+    
+}
+.espace1{
+    display: flex;
+    margin: 50px;
+}
+.espace2{
+    display: flex;
+    margin: 50px;
+}
+.pi1{
+    text-align:center;
+    color: #DA001E;
+   
+}
+.produit{
+    margin: 100px;
+}
+.pi2{
+    text-align:center;
+    color: #FDD90B;
+   
+}
+.G{
+    width: 500px;
+    margin-bottom: 0;
+}
+.espace-categorie{
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    text-align: center;
+    color:#DA001E;
+}
+.categorie2{
+    margin-top:270px ;
+}
+.h1{
+    text-align: center;
+    margin-top:100px ;
+    color: #F9D0A3;
+}
+.G1{
+height: 400px;
+margin-top: 200px;
+}
+

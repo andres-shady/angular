@@ -1,0 +1,146 @@
+.container{
+     display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    
+    position: absolute;
+    width: 100%;
+    min-height: 75px;
+    padding: 0;
+    margin: 0;
+    background-color: #DA001E ;
+    color: #EEE;
+       
+}
+.espace-menu{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content:end;
+ 
+}
+
+
+.liste-element{
+    display: flex;   
+    list-style: none; 
+    justify-content: center;
+    
+    
+}
+.element{
+  padding: 10px;
+  text-align: right;
+  justify-content: center;
+}
+.element:hover{
+  color: yellow;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+ }
+  
+
+.button{
+    width: 40px;
+    height:2px;
+    border: none;
+    background-color: transparent;
+} 
+.button :nth-child(2){
+  margin: 4px 0;
+
+}
+img{
+  width:100px;
+  float: left;
+  margin-right: 700px;
+  margin-left: 20px;
+
+}
+
+@media screen and (max-width:780px) {
+
+     .espace-menu{
+      width:100%;
+      justify-content: center;
+      display: block;
+      position: fixed;
+      background: #DA001E;
+      top: 60px;
+      width: 180px;
+      padding: 50px;
+      margin: 0;
+      right: -280px;
+      
+      
+     }
+
+     .menu{
+      margin-right: 50px;
+      
+      
+     }
+
+     .liste-element{
+      display: block;
+      right: -280px;
+      
+      
+     }
+
+     .element{
+      
+      margin-top: 50px;
+      border-bottom: 1px solid rgb(32, 30, 30);
+     }
+     .element:hover{
+      color: yellow;
+      cursor: pointer;
+      transition: 0.4s ease-in-out;
+     }
+    
+     .button {
+      background-color: #EEE;
+      width: 30px; 
+      height: 3px;
+      display: block;
+      top: 30px;
+      right: 30px;
+      margin: 0%;
+      position: absolute;
+      cursor: pointer;
+      
+    }
+  
+   .button ::before,
+   .button ::after {
+      content: "";
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      position: absolute;
+      right: 0;
+  }
+  
+   .button ::before {
+      top: -10px;
+  }
+  
+   .button ::after {
+      bottom: -10px;
+  }
+  .menuClass{
+    right: 0;
+    transition: 0.4s ease-in-out;
+  }
+  .espace-icon{
+    cursor: pointer;
+  }
+  &.is-open{
+    display: block;
+    position: absolute;
+    background:#444;
+    width:100%;
+    right: 0%;
+  }
+}

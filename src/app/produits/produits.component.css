@@ -1,0 +1,29 @@
+.pro{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.imi{
+    width: 400px;
+}
+.pa{
+    font-size: 50px;
+    color: #DA001E;
+    margin-bottom: 20px;
+    
+}
+.pa1{
+    color: #FDD90B;
+    font-size: 30px;
+    
+    
+}
+.da{
+    margin-right: 250px;
+    margin-top: 250px;
+    text-align: center;
+}
+.pa2{
+    font-size: 15px;
+    justify-content: center;
+}

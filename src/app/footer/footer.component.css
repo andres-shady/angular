@@ -1,0 +1,31 @@
+
+.div-footer{
+    background:#DA001E;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.liste{
+    display: flex;
+}
+
+.element-list{
+    margin: 60px;
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: right;
+    cursor: pointer;
+}
+.element-list:hover{
+    color: #FDD90B ;
+    
+}
+img{
+    width:40px ;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
